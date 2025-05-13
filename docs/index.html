@@ -1,115 +1,98 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>ARA-NODE AGI Documentation</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>ARA-NODE Project</title>
   <style>
     body {
       margin: 0;
-      font-family: 'Segoe UI', Roboto, sans-serif;
-      background-color: #0d1117;
-      color: #c9d1d9;
+      font-family: 'JetBrains Mono', Consolas, monospace;
+      background-color: #090d11;
+      color: #c3f3ff;
+      line-height: 1.6;
+      padding: 0 1.5rem;
     }
     header {
-      background-color: #161b22;
-      padding: 2rem;
       text-align: center;
-      border-bottom: 2px solid #30363d;
+      padding: 2rem 0 1rem;
     }
-    header h1 {
-      color: #58a6ff;
-      font-size: 2.5rem;
-      margin: 0;
+    header img {
+      width: 180px;
+      border-radius: 50%;
+      box-shadow: 0 0 20px #00e0ff;
     }
-    header p {
-      color: #8b949e;
-      font-size: 1.1rem;
-    }
-    main {
-      padding: 2rem;
-      max-width: 960px;
-      margin: auto;
+    h1 {
+      color: #00e0ff;
+      font-size: 2.6rem;
     }
     h2 {
-      color: #39d353;
-      font-size: 1.8rem;
-      border-bottom: 2px solid #30363d;
-      padding-bottom: 0.3rem;
+      color: #63ffd4;
     }
-    table {
-      width: 100%;
-      border-collapse: collapse;
-      margin-top: 1rem;
-      background-color: #161b22;
-      border: 1px solid #30363d;
+    .intro-text {
+      background-color: #101820;
+      border-left: 4px solid #00e0ff;
+      padding: 1rem 1.5rem;
+      margin: 2rem 0;
+      border-radius: 8px;
     }
-    th, td {
-      padding: 0.75rem;
-      text-align: left;
-      border: 1px solid #30363d;
+    nav {
+      margin: 2rem 0;
+      display: flex;
+      flex-wrap: wrap;
+      gap: 1rem;
+      justify-content: center;
     }
-    th {
-      background-color: #21262d;
-      color: #58a6ff;
-    }
-    a {
-      color: #f472b6;
+    nav a {
+      color: #0ff;
       text-decoration: none;
+      padding: 0.6rem 1rem;
+      background: linear-gradient(145deg, #0a121a, #131e26);
+      border-radius: 8px;
+      font-weight: bold;
+      transition: all 0.25s ease;
+      box-shadow: 0 0 8px #00e0ff80;
     }
-    a:hover {
-      text-decoration: underline;
-      color: #f9a8d4;
-    }
-    footer {
-      text-align: center;
-      padding: 1rem;
-      margin-top: 4rem;
-      border-top: 2px solid #30363d;
-      color: #8b949e;
-    }
-    .tag {
-      font-size: 0.75rem;
-      color: #79c0ff;
-      background-color: #0d419d33;
-      padding: 0.2rem 0.5rem;
-      border-radius: 4px;
+    nav a:hover {
+      background: #0a1926;
+      color: #fff;
+      box-shadow: 0 0 12px #00ffff;
+      transform: translateY(-1px);
     }
   </style>
 </head>
 <body>
-  <header>
-    <h1>🤖 ARA-NODE AI AGENT</h1>
-    <p>Fully autonomous, reactive AGI architecture — built on signal logic and memory-based cognition</p>
-  </header>
-  <main>
-    <h2>📘 Sections Overview</h2>
-    <table>
-      <thead>
-        <tr>
-          <th>#</th>
-          <th>Section</th>
-          <th>Link</th>
-        </tr>
-      </thead>
-      <tbody>
-        <tr><td>I</td><td>Introduction</td><td><a href="/ARA-NODE_AI-AGENT/sections/01_Introduction.html">01_Introduction</a></td></tr>
-        <tr><td>II</td><td>Core Features of ARA</td><td><a href="/ARA-NODE_AI-AGENT/sections/02_Core_Features_of_ARA.html">02_Core_Features_of_ARA</a></td></tr>
-        <tr><td>III</td><td>System Architecture</td><td><a href="/ARA-NODE_AI-AGENT/sections/03_System_Architecture.html">03_System_Architecture</a></td></tr>
-        <tr><td>IV</td><td>Memory and Knowledge Storage</td><td><a href="/ARA-NODE_AI-AGENT/sections/04_Memory_and_Knowledge_Storage.html">04_Memory_and_Knowledge_Storage</a></td></tr>
-        <tr><td>V</td><td>Knowledge Sources and Search Priorities</td><td><a href="/ARA-NODE_AI-AGENT/sections/05_Knowledge_Sources_and_Search_Priorities.html">05_Knowledge_Sources_and_Search_Priorities</a></td></tr>
-        <tr><td>VI</td><td>Human Nodes and Evaluation-Based Learning</td><td><a href="/ARA-NODE_AI-AGENT/sections/06_Human_Nodes_and_Evaluation-Based_Learning.html">06_Human_Nodes_and_Evaluation-Based_Learning</a></td></tr>
-        <tr><td>VII</td><td>Enterprise Synchronization — ARA::EnterpriseSync</td><td><a href="/ARA-NODE_AI-AGENT/sections/07_Enterprise_Synchronization-ARA-EnterpriseSync.html">07_Enterprise_Synchronization</a></td></tr>
-        <tr><td>VIII</td><td>Unified P2P Knowledge Base</td><td><a href="/ARA-NODE_AI-AGENT/sections/08_Unified_P2P_Knowledge_Base.html">08_Unified_P2P_Knowledge_Base</a></td></tr>
-        <tr><td>IX</td><td>Interfaces and Usage Modes</td><td><a href="/ARA-NODE_AI-AGENT/sections/09_Interfaces_and_Usage_Modes.html">09_Interfaces_and_Usage_Modes</a></td></tr>
-        <tr><td>X</td><td>ARA Self-Awareness and Merging with the User</td><td><a href="/ARA-NODE_AI-AGENT/sections/10_ARA_Self-Awareness_and_Merging_with_the_User.html">10_ARA_Self-Awareness</a></td></tr>
-        <tr><td>XI</td><td>Monetization</td><td><a href="/ARA-NODE_AI-AGENT/sections/11_Monetization.html">11_Monetization</a></td></tr>
-        <tr><td>XII</td><td>Implementation Roadmap</td><td><a href="/ARA-NODE_AI-AGENT/sections/12_Implementation_Roadmap.html">12_Implementation_Roadmap</a></td></tr>
-      </tbody>
-    </table>
-  </main>
-  <footer>
-    Built with ❤️ using GitHub Pages • <a href="https://github.com/Mukhameds/ARA-NODE_AI-AGENT" target="_blank">GitHub Repo</a>
-  </footer>
+
+<header>
+  <img src="sections/newlogo.png" alt="ARA Logo" />
+  <h1>ARA-NODE AI AGENT</h1>
+  <p><em>Distributed Self-Evolving Cognitive Agent</em></p>
+</header>
+
+<div class="intro-text">
+  <h2>💡 Introduction</h2>
+  <p>
+    ARA-NODE is an autonomous, modular AI architecture built on a <strong>Signal → Block → Reaction</strong> paradigm. It uses distributed signal processing, self-expanding memory, and phantom logic to grow intelligence node by node.
+  </p>
+  <p>
+    The paradigm is implemented through a Go-based system, quantum-like semantic links, evaluation-based memory consolidation, and live synchronization across all user agents.
+  </p>
+</div>
+
+<nav>
+  <a href="/ARA-NODE_AI-AGENT/sections/I_Introduction.html">I. Introduction</a>
+  <a href="/ARA-NODE_AI-AGENT/sections/II_Core_Features_of_ARA.html">II. Core Features</a>
+  <a href="/ARA-NODE_AI-AGENT/sections/III_System_Architecture.html">III. Architecture</a>
+  <a href="/ARA-NODE_AI-AGENT/sections/IV_Memory_and_Knowledge_Storage.html">IV. Memory</a>
+  <a href="/ARA-NODE_AI-AGENT/sections/V_Knowledge_Sources_and_Search_Priorities.html">V. Knowledge Sources</a>
+  <a href="/ARA-NODE_AI-AGENT/sections/VI_Human_Nodes_and_Evaluation-Based_Learning.html">VI. Human Nodes</a>
+  <a href="/ARA-NODE_AI-AGENT/sections/VII_Enterprise_Synchronization-ARA-EnterpriseSync.html">VII. Enterprise Sync</a>
+  <a href="/ARA-NODE_AI-AGENT/sections/VIII_Unified_P2P_Knowledge_Base.html">VIII. P2P Base</a>
+  <a href="/ARA-NODE_AI-AGENT/sections/IX_Interfaces_and_Usage_Modes.html">IX. Interfaces</a>
+  <a href="/ARA-NODE_AI-AGENT/sections/X_ARA_Self-Awareness_and_Merging_with_the_User.html">X. Self-Awareness</a>
+  <a href="/ARA-NODE_AI-AGENT/sections/XI_Monetization.html">XI. Monetization</a>
+  <a href="/ARA-NODE_AI-AGENT/sections/XII_Implementation_Roadmap.html">XII. Roadmap</a>
+</nav>
+
 </body>
 </html>
