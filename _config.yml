@@ -1,0 +1,4 @@
+theme: minima
+title: ARA-NODE AI Agent
+markdown: kramdown
+permalink: /:path/
