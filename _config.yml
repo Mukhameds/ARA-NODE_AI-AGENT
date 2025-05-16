@@ -1,12 +1,10 @@
-title: "ARA-NODE — Reactive Agent System"
-baseurl: "/ARA_Technical_Specification"
+title: "ARA-NODE"
+baseurl: "/ARA-NODE_AI-AGENT"
 markdown: kramdown
 
 kramdown:
   input: GFM
   math_engine: mathjax
-
-theme: null
 
 defaults:
   - scope:
