@@ -3,107 +3,74 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>ARA-NODE — Reactive Agent System</title>
+  <title>ARA-NODE Overview</title>
   <link href="https://fonts.googleapis.com/css2?family=Share+Tech+Mono&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/style.css" />
   <style>
     body {
       margin: 0;
       font-family: 'Share Tech Mono', monospace;
-      background-color: #0b0014;
+      background-color: #00111b;
       color: #e0f7ff;
-      padding: 0 1.5rem;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      padding: 2rem;
+    }
+    .container {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+      gap: 2rem;
+      max-width: 1400px;
+      width: 100%;
+    }
+    .card {
+      background-color: #01313e;
+      border: 1px solid #00efff;
+      border-radius: 12px;
+      padding: 1.5rem;
+      box-shadow: 0 0 15px #00efff55;
+    }
+    .card h2 {
+      color: #fff700;
+      font-size: 1.5rem;
+      margin-bottom: 1rem;
+    }
+    .card p, .card li {
+      font-size: 1.05rem;
+      line-height: 1.6;
+    }
+    .card ul {
+      padding-left: 1.5rem;
+    }
+    .icon {
+      font-size: 1.4rem;
+      margin-right: 0.4rem;
     }
     header {
+      margin-bottom: 3rem;
       text-align: center;
-      padding: 2.5rem 0 1.5rem;
     }
-    header img {
-      width: 160px;
-      border-radius: 8px;
-      box-shadow: 0 0 25px #ff2ee2aa;
+    header h1 {
+      color: #fff700;
+      font-size: 2.5rem;
     }
-    h1 {
-      font-size: 2.6rem;
-      color: #ffda47;
-      text-shadow: 0 0 12px #ffda47aa, 0 0 6px #ff2ee2aa;
-    }
-    h2 {
-      color: #ff2ee2;
-      font-size: 1.6rem;
-    }
-    .intro-text {
-      background-color: #1b0022;
-      border-left: 5px solid #ff2ee2;
-      padding: 1.3rem 1.5rem;
-      margin: 2rem 0;
-      border-radius: 8px;
-      box-shadow: 0 0 12px #ff2ee244;
-    }
-    nav {
-      margin: 2.5rem 0;
-      display: flex;
-      flex-wrap: wrap;
-      gap: 1rem;
-      justify-content: center;
-    }
-    nav a {
-      color: #fff;
-      text-decoration: none;
-      padding: 0.6rem 1.2rem;
-      background: linear-gradient(145deg, #331a3d, #150015);
-      border-radius: 10px;
-      font-weight: bold;
-      transition: all 0.25s ease;
-      box-shadow: 0 0 10px #ff2ee266;
-    }
-    nav a:hover {
-      background: linear-gradient(145deg, #150015, #331a3d);
-      color: #ff2ee2;
-      box-shadow: 0 0 14px #ff2ee2;
-      transform: translateY(-1px);
-    }
-    footer {
-      margin-top: 3rem;
-      padding: 2rem 1rem;
-      text-align: center;
-      font-size: 0.9rem;
+    header p {
+      font-size: 1.2rem;
       color: #ccc;
-      border-top: 1px solid #411a40;
-      background-color: #0f0018;
-      box-shadow: 0 -1px 10px #ff2ee244;
-    }
-    footer a {
-      color: #ffda47;
-      text-decoration: none;
-    }
-    footer a:hover {
-      text-decoration: underline;
-      color: #ff2ee2;
     }
   </style>
 </head>
 <body>
+  <header>
+    <img src="images/logo_ARA.png" alt="ARA Logo" />
 
-<header>
-  <img src="images/logo_ARA.png" alt="ARA-NODE Logo" />
-
-  <h1>ARA-NODE</h1>
-  <p><em>Reactive Intelligence: Signal → Block → Reaction</em></p>
-</header>
-
-<div class="intro-text">
-  <h2>🧠 What is ARA-NODE?</h2>
-  <p>
-    ARA-NODE is a fully reactive, decentralized cognitive agent system. It operates by direct signal excitation rather than learned weights,
-    simulating cognition via memory structures, goals, emotions, and fanthoms.
-  </p>
-  <p>
-    Each ARA is a self-evolving node capable of forming knowledge, reacting autonomously, and synchronizing in p2p clusters — no central model required.
-  </p>
-</div>
+    <h1>ARA-NODE_AI-AGENT</h1>
+    <p>Reactive Intelligence · Signal → Block → Reaction</p>
+  </header>
 
 <nav>
-  <a href="sections/ARA_Technical_Specification.html">ARA_Technical_Specification</a>
+  <a href="sections/ARA_Technical_Specification.html">ARA. Technical Specification</a>
   <a href="sections/I_Introduction.html">I. Introduction</a>
   <a href="sections/II_Core_Features_of_ARA.html">II. Core Features</a>
   <a href="sections/III_System_Architecture.html">III. Architecture</a>
@@ -116,14 +83,105 @@
   <a href="sections/X_ARA_Self-Awareness_and_Merging_with_the_User.html">X. Self-Awareness</a>
   <a href="sections/XI_Monetization.html">XI. Monetization</a>
   <a href="sections/XII_Implementation_Roadmap.html">XII. Roadmap</a>
-
 </nav>
+
+  <div class="container">
+    <div class="card">
+      <h2>🧠 What is ARA-NODE?</h2>
+      <p>ARA-NODE is not just another digital assistant. It is a reflection of your mind in machine form.<br>
+      Each node is a personal, autonomous cognitive twin built on a signal-reactive logic — not based on neural networks or gradient training.</p>
+      <p>ARA learns through interaction. Every request is processed and stored, building a copy of your goals and thought patterns. It operates 24/7, helping you think, react, and solve.</p>
+    </div>
+
+    <div class="card">
+      <h2>💡 Why it matters</h2>
+      <p>ARA-NODE is your digital self. It helps you plan, decide, remember. It's not a tool — it's you, encoded in signals, goals, and memory.<br>
+      If users choose, multiple ARA nodes may synchronize into a shared cognitive system — ARU — built from individuals, not corporations.</p>
+    </div>
+
+    <div class="card">
+      <h2>⚙️ How it works</h2>
+      <ul>
+        <li><strong>QuantumMemory</strong> — tagged, emotional, linked semantic memory</li>
+        <li><strong>GhostField</strong> — phantom hypotheses and predictions</li>
+        <li><strong>WillEngine</strong> — prioritization and internal goals</li>
+        <li><strong>Signal Logic</strong> — phase-matched signal-triggered block activation</li>
+        <li><strong>P2P Sync</strong> — distributed learning without servers</li>
+      </ul>
+    </div>
+
+    
+
+    <div class="card">
+      <h2>🤖 The future we’re building</h2>
+      <ul>
+        <li>Create your agent (CLI, Web, Telegram)</li>
+        <li>Train it on your thoughts, goals, and reactions</li>
+        <li>Develop a second self that lives for your benefit</li>
+        <li>Later: acquire an ARA-DROID — a physical avatar powered by your ARA</li>
+      </ul>
+    </div>
+  </div>
+
+
+<section style="
+  background-color: #002a20;
+  border-top: 2px solid #00ff99;
+  border-bottom: 2px solid #00ff99;
+  padding: 3rem 2rem;
+  text-align: center;
+  margin-top: 4rem;
+  box-shadow: 0 0 20px #00ff9966;
+">
+  <h2 style="color: #99ffcc; font-size: 1.8rem; margin-bottom: 1.5rem;">
+    🧠 What is ARU-AGI?
+  </h2>
+  <p style="max-width: 800px; margin: 0 auto 2rem; font-size: 1.15rem; line-height: 1.7; color: #ccffe6;">
+    <strong>ARU-AGI</strong> is a synthetic cognitive architecture designed as a decentralized superintelligence
+    built from signal-driven agents. It operates without neural networks and forms thoughts via quantum memory, fanthoms, and semantic reactions.
+    The project aims to unify all autonomous nodes into a single evolving intelligence — reflecting the collective cognition of humanity.
+  </p>
+  <a href="https://mukhameds.github.io/ARU-AGI-Project/" target="_blank"
+     style="background-color: #00ff99; color: #002a20; font-weight: bold; padding: 0.8rem 1.6rem;
+            border-radius: 10px; font-size: 1rem; box-shadow: 0 0 10px #00ff9977;
+            text-decoration: none; display: inline-block; transition: 0.2s;">
+    Explore ARU-AGI Project
+  </a>
+</section>
+
+
+<section style="
+  background-color: #2a003f;
+  border-top: 2px solid #ff5cff;
+  border-bottom: 2px solid #ff5cff;
+  padding: 3rem 2rem;
+  text-align: center;
+  margin-top: 4rem;
+  box-shadow: 0 0 20px #ff5cff44;
+">
+  <h2 style="color: #ffb3ff; font-size: 1.8rem; margin-bottom: 1.5rem;">
+    📡 What is STB?
+  </h2>
+  <p style="max-width: 800px; margin: 0 auto 2rem; font-size: 1.15rem; line-height: 1.7; color: #fce9ff;">
+    The <strong>Signal Theory of Being (STB)</strong> is a scientific paradigm redefining the foundations of physics, logic, and mathematics.
+    It models the universe as a network of phase-driven signal reactions, where mass, charge, time, and structure emerge from signal excitation.
+    STB offers a computable and testable framework unifying quantum theory, relativity, and discrete logic.
+  </p>
+  <a href="https://mukhameds.github.io/STB-Physics/" target="_blank"
+     style="background-color: #ff5cff; color: #2a003f; font-weight: bold; padding: 0.8rem 1.6rem;
+            border-radius: 10px; font-size: 1rem; box-shadow: 0 0 10px #ff5cff88;
+            text-decoration: none; display: inline-block; transition: 0.2s;">
+    Explore STB Website
+  </a>
+</section>
+
+
 
 <footer>
   <p><strong>👤 Author: Satybaev Mukhamed Kamilovich</strong></p>
   <p>
     🌐 <a href="https://mukhameds.github.io/ARU-AGI-Project/">Main Site</a> |
-    🐦 <a href="https://x.com/redkms2025">Twitter/X</a> |
+    🕊️ <a href="https://x.com/redkms2025">Twitter/X</a> |
     🔗 <a href="https://www.linkedin.com/in/muhamed-satybaev-38b864362">LinkedIn</a> |
     💻 <a href="https://github.com/Mukhameds">GitHub</a>
   </p>

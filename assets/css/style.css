@@ -1,116 +1,144 @@
-.markdown-body {
+body {
+  margin: 0;
   font-family: 'Share Tech Mono', monospace;
-  background-color: #0b0014;
+  background-color: #00111b;
   color: #e0f7ff;
-  max-width: 1000px;
-  margin: auto;
-  padding: 3rem;
-  line-height: 2;
-  font-size: 1.2rem;
-  border-radius: 16px;
-  box-shadow: 0 0 40px rgba(255, 47, 226, 0.15);
-  background-image: radial-gradient(circle at 30% 30%, #150020, #05000c 85%);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 2rem;
 }
 
-.markdown-body h1,
-.markdown-body h2,
-.markdown-body h3 {
-  color: #ffda47;
-  border-bottom: 2px solid #ff2ee255;
-  padding-bottom: 0.5rem;
-  margin-top: 3rem;
-  text-shadow: 0 0 10px #ffda47aa, 0 0 6px #ff2ee288;
-}
-
-.markdown-body h1 {
-  font-size: 2.5rem;
-}
-
-.markdown-body h2 {
-  font-size: 2rem;
-  color: #ff2ee2;
-}
-
-.markdown-body h3 {
-  font-size: 1.6rem;
-  color: #ffd166;
-}
-
-.markdown-body p {
-  margin-bottom: 1.6rem;
-}
-
-.markdown-body ul {
-  padding-left: 2rem;
-  margin-bottom: 1.6rem;
-}
-
-.markdown-body li::marker {
-  color: #ff2ee2;
-  font-size: 1.2em;
-}
-
-.markdown-body strong {
-  color: #ffd166;
-  text-shadow: 0 0 5px #ffd16677;
-}
-
-.markdown-body em {
-  color: #ffb3f8;
-  font-style: italic;
-}
-
-.markdown-body code {
-  background-color: #241400;
-  padding: 0.35em 0.6em;
-  border-radius: 6px;
-  color: #fcb900;
-  font-family: Consolas, monospace;
-  box-shadow: 0 0 6px #fcb90044;
-}
-
-.markdown-body blockquote {
-  border-left: 4px solid #ff2ee2;
-  padding-left: 1.2rem;
-  margin: 2rem 0;
-  color: #ccc;
-  background-color: #1b0022;
-  box-shadow: 0 0 8px #ff2ee266;
+header img {
+  width: 140px;
+  margin-bottom: 1rem;
   border-radius: 8px;
-  font-size: 1.1rem;
+  box-shadow: 0 0 20px #FFFB0088;
 }
 
-.markdown-body table {
-  border-collapse: collapse;
+.container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+  gap: 2rem;
+  max-width: 1400px;
   width: 100%;
-  margin: 2rem 0;
-  box-shadow: 0 0 10px #ff2ee244;
 }
 
-.markdown-body th,
-.markdown-body td {
-  border: 1px solid #444;
-  padding: 0.9rem 1.2rem;
-  text-align: left;
+.card {
+  background-color: #01313e;
+  border: 1px solid #00EFFF;
+  border-radius: 12px;
+  padding: 1.5rem;
+  box-shadow: 0 0 15px #00EFFF55;
 }
 
-.markdown-body th {
-  background-color: #1e0b2d;
-  color: #ff2ee2;
-  font-size: 1.1rem;
+.card h2 {
+  color: #FFFB00;
+  font-size: 1.6rem;
+  margin-bottom: 1rem;
+  text-shadow: 0 0 6px #fffb0066;
 }
 
-.markdown-body tr:nth-child(even) {
-  background-color: #120012;
+.card p,
+.card li {
+  font-size: 1.15rem;
+  line-height: 1.8;
+}
+
+.card ul {
+  padding-left: 1.5rem;
+}
+
+.icon {
+  font-size: 1.4rem;
+  margin-right: 0.4rem;
+}
+
+header {
+  margin-bottom: 3rem;
+  text-align: center;
+}
+
+header h1 {
+  color: #FFFB00;
+  font-size: 2.8rem;
+  text-shadow: 0 0 10px #FFFB00aa;
+}
+
+header p {
+  font-size: 1.25rem;
+  color: #aeefff;
+}
+
+nav {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.8rem;
+  justify-content: center;
+  margin-bottom: 3rem;
+}
+
+nav a {
+  color: #00111b;
+  background-color: #00EFFF;
+  padding: 0.6rem 1.2rem;
+  border-radius: 8px;
+  font-weight: bold;
+  text-decoration: none;
+  box-shadow: 0 0 10px #00EFFF66;
+  transition: all 0.2s ease;
+}
+
+nav a:hover {
+  background-color: #FFFB00;
+  color: #00111b;
+  box-shadow: 0 0 14px #FFFB00aa;
+  transform: translateY(-1px);
+}
+
+footer {
+  margin-top: 4rem;
+  padding: 2rem;
+  text-align: center;
+  font-size: 1rem;
+  color: #aeefff;
+  border-top: 1px solid #003344;
+  background-color: #00202a;
+  box-shadow: 0 -1px 10px #00EFFF33;
+  width: 100%;
+}
+
+footer a {
+  color: #FFFB00;
+  text-decoration: none;
+  margin: 0 0.3rem;
+}
+
+footer a:hover {
+  text-decoration: underline;
+  color: #00EFFF;
 }
 
 @media screen and (max-width: 700px) {
-  .markdown-body {
-    padding: 1.5rem;
-    font-size: 1.05rem;
+  body {
+    padding: 1.2rem;
   }
 
-  .markdown-body h1 { font-size: 2rem; }
-  .markdown-body h2 { font-size: 1.5rem; }
-  .markdown-body h3 { font-size: 1.25rem; }
+  header h1 {
+    font-size: 2rem;
+  }
+
+  .card h2 {
+    font-size: 1.4rem;
+  }
+
+  .card p,
+  .card li {
+    font-size: 1rem;
+  }
+
+  nav {
+    flex-direction: column;
+    align-items: center;
+  }
 }
