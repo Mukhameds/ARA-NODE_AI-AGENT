@@ -1,6 +1,0 @@
-# docs/_config.yml
-
-title: ARA-NODE AI Agent
-theme: null              # ❌ отключаем тему minima
-markdown: kramdown
-permalink: /:path/

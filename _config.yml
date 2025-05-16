@@ -1,0 +1,21 @@
+title: "ARA-NODE — Reactive Agent System"
+baseurl: "/ARA_Technical_Specification"
+markdown: kramdown
+
+kramdown:
+  input: GFM
+  math_engine: mathjax
+
+theme: null
+
+defaults:
+  - scope:
+      path: ""
+      type: "pages"
+    values:
+      layout: default
+  - scope:
+      path: "sections"
+      type: "pages"
+    values:
+      layout: default

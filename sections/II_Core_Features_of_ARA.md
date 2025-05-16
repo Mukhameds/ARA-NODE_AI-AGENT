@@ -1,7 +1,7 @@
 ---
 layout: default
-title: 
-permalink: /sections/
+title: II. Core_Features_of_ARA
+permalink: /sections/II_Core_Features_of_ARA.html
 ---
 
 ## **II. Core Features of ARA**
