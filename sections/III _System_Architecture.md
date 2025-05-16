@@ -1,7 +1,7 @@
 ---
 layout: default
-title: 3. System Architecture
-permalink: /sections/03_System_Architecture.html
+title: III. System_Architecture
+permalink: /sections/III_System_Architecture.html
 ---
 
 ## **III. System Architecture**

@@ -1,7 +1,7 @@
 ---
 layout: default
-title: 7. Enterprise Synchronization — ARA-EnterpriseSync
-permalink: /sections/07_EnterpriseSync.html
+title: VII. Enterprise_Synchronization-ARA-EnterpriseSync
+permalink: /sections/VII_Enterprise_Synchronization-ARA-EnterpriseSync.html
 ---
 
 ## **VII. Enterprise Synchronization — ARA-EnterpriseSync**

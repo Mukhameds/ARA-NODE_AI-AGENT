@@ -1,7 +1,7 @@
 ---
 layout: default
-title: 4. Memory and Knowledge Storage
-permalink: /sections/04_Memory_Storage.html
+title: IV. Memory_and_Knowledge_Storage
+permalink: /sections/IV_Memory_and_Knowledge_Storage.html
 ---
 
 ## **IV. Memory and Knowledge Storage**

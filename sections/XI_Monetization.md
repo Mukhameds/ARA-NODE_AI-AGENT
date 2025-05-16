@@ -1,7 +1,7 @@
 ---
 layout: default
-title: 11. Monetization
-permalink: /sections/11_Monetization.html
+title: XI. Monetization
+permalink: /sections/XI_Monetization.html
 ---
 
 ## **XI. Monetization**

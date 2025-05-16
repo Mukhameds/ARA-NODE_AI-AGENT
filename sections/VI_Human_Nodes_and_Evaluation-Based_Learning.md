@@ -1,7 +1,7 @@
 ---
 layout: default
-title: 6. Human Nodes and Evaluation-Based Learning
-permalink: /sections/06_Human_Nodes.html
+title: IX. Interfaces_and_Usage_Modes
+permalink: /sections/IX_Interfaces_and_Usage_Modes.html
 ---
 
 ## **VI. Human Nodes and Evaluation-Based Learning**

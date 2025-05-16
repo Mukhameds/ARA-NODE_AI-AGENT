@@ -1,7 +1,7 @@
 ---
 layout: default
-title: 8. Unified P2P Knowledge Base
-permalink: /sections/08_P2P_Knowledge.html
+title: VIII. Unified_P2P_Knowledge_Base
+permalink: /sections/VIII_Unified_P2P_Knowledge_Base.html
 ---
 
 ## **VIII. Unified P2P Knowledge Base**

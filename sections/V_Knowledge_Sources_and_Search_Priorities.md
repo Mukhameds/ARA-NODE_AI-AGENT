@@ -1,7 +1,7 @@
 ---
 layout: default
-title: 5. Knowledge Sources and Search Priorities
-permalink: /sections/05_Knowledge_Sources.html
+title: V. Knowledge_Sources_and_Search_Priorities.html
+permalink: /sections/V_Knowledge_Sources_and_Search_Priorities.html
 ---
 
 ## **V. Knowledge Sources and Search Priorities**

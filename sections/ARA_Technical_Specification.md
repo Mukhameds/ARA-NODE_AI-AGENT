@@ -1,7 +1,7 @@
 ---
 layout: default
-title: 0. Technical Specification
-permalink: /sections/00_Technical_Specification.html
+title:  Technical Specification
+permalink: /sections/ARA_Technical_Specification.html
 ---
 
 # **Technical Specification for ARA — Next-Generation Personal AI Agent**

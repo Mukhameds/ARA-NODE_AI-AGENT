@@ -1,7 +1,7 @@
 ---
 layout: default
-title: 10. ARA Self-Awareness and Merging with the User
-permalink: /sections/10_Self_Awareness.html
+title: X. ARA_Self-Awareness_and_Merging_with_the_User.html
+permalink: /sections/X_ARA_Self-Awareness_and_Merging_with_the_User.html
 ---
 
 ## **X. ARA Self-Awareness and Merging with the User**
