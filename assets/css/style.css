@@ -58,22 +58,22 @@ header img {
   color: #00e0ff;
   font-size: 1.6rem;
   margin-bottom: 1rem;
-  text-shadow: 0 0 8px #00e0ff, 0 0 16px #00e0ffaa;
+  text-shadow: 0 0 4px #00e0ff, 0 0 8px #00e0ffaa;
 }
 
 .card-mvp h2 {
   color: #00e0ff;
-  text-shadow: 0 0 8px #00e0ff, 0 0 16px #00e0ffaa;
+  text-shadow: 0 0 4px #00e0ff, 0 0 8px #00e0ffaa;
 }
 
 .card-agi h2 {
   color: #00ffaa;
-  text-shadow: 0 0 8px #00ffaa, 0 0 16px #00ffaa88;
+  text-shadow: 0 0 4px #00ffaa, 0 0 8px #00ffaa88;
 }
 
 .card-stb h2 {
   color: #ff5cff;
-  text-shadow: 0 0 8px #ff5cff, 0 0 16px #ff5cff88;
+  text-shadow: 0 0 4px #ff5cff, 0 0 8px #ff5cff88;
 }
 
 .card p,
@@ -87,50 +87,41 @@ header img {
   padding-left: 1.5rem;
 }
 
-.button-mvp {
-  background-color: #00e0ff;
-  color: #001f33;
+.button-mvp,
+.button-agi,
+.button-stb {
   font-weight: bold;
   padding: 0.8rem 1.6rem;
   border-radius: 10px;
   font-size: 1rem;
-  box-shadow: 0 0 12px #00e0ff88;
   text-decoration: none;
   display: inline-block;
   transition: 0.2s ease;
+}
+
+.button-mvp {
+  background-color: #00e0ff;
+  color: #001f33;
+  box-shadow: 0 0 8px #00e0ff88;
 }
 
 .button-agi {
   background-color: #00ffaa;
   color: #002926;
-  font-weight: bold;
-  padding: 0.8rem 1.6rem;
-  border-radius: 10px;
-  font-size: 1rem;
-  box-shadow: 0 0 12px #00ffaa88;
-  text-decoration: none;
-  display: inline-block;
-  transition: 0.2s ease;
+  box-shadow: 0 0 8px #00ffaa88;
 }
 
 .button-stb {
   background-color: #ff5cff;
   color: #2a003f;
-  font-weight: bold;
-  padding: 0.8rem 1.6rem;
-  border-radius: 10px;
-  font-size: 1rem;
-  box-shadow: 0 0 12px #ff5cff88;
-  text-decoration: none;
-  display: inline-block;
-  transition: 0.2s ease;
+  box-shadow: 0 0 8px #ff5cff88;
 }
 
 .button-mvp:hover,
 .button-agi:hover,
 .button-stb:hover {
   transform: scale(1.05);
-  box-shadow: 0 0 18px currentColor;
+  box-shadow: 0 0 12px currentColor;
 }
 
 .icon {
@@ -146,7 +137,7 @@ header {
 header h1 {
   color: #fffb00;
   font-size: 2.8rem;
-  text-shadow: 0 0 10px #fffb00, 0 0 20px #fffb00aa;
+  text-shadow: 0 0 6px #fffb00, 0 0 12px #fffb00aa;
 }
 
 header p {
@@ -210,11 +201,12 @@ footer a:hover {
   color: #e6faff;
   background-color: transparent;
   padding: 2rem;
-  max-width: 100%;
+  max-width: 960px;
   width: 100%;
   word-wrap: break-word;
   overflow-x: auto;
   box-sizing: border-box;
+  margin: 0 auto;
 }
 
 .markdown-body h1,
@@ -222,9 +214,10 @@ footer a:hover {
 .markdown-body h3 {
   font-family: 'Share Tech Mono', monospace;
   color: #fffb00;
-  text-shadow: 0 0 10px #fffb00, 0 0 20px #fffb00aa;
+  text-shadow: 0 0 4px #fffb00, 0 0 6px #fffb00aa;
   margin-top: 2rem;
   margin-bottom: 1rem;
+  word-break: break-word;
 }
 
 .markdown-body p {
@@ -241,7 +234,8 @@ footer a:hover {
   border-radius: 6px;
   display: block;
   overflow-x: auto;
-  box-shadow: 0 0 10px #00e0ff22;
+  box-shadow: 0 0 8px #00e0ff22;
+  word-break: break-word;
 }
 
 @media screen and (max-width: 700px) {
@@ -269,7 +263,7 @@ footer a:hover {
 
   .markdown-body {
     padding: 1rem;
-    font-size: 1rem;
+    font-size: 0.95rem;
   }
 
   .markdown-body pre,
