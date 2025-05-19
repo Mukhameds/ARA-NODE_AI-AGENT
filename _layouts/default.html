@@ -10,6 +10,22 @@
 
   <!-- Стили -->
   <link rel="stylesheet" href="{{ site.baseurl }}/assets/css/style.css">
+  <style>
+    .markdown-body > * {
+      margin-bottom: 3rem;
+    }
+    .markdown-body section.card {
+      margin-bottom: 4rem;
+    }
+    @media screen and (max-width: 700px) {
+      .markdown-body > * {
+        margin-bottom: 2rem;
+      }
+      .markdown-body section.card {
+        margin-bottom: 2.5rem;
+      }
+    }
+  </style>
 </head>
 <body>
   <main class="markdown-body">
