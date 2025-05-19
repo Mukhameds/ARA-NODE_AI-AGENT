@@ -1,6 +1,6 @@
 body {
   margin: 0;
-  font-family: 'Share Tech Mono', monospace;
+  font-family: 'Inter', sans-serif;
   background-color: #00111b;
   color: #e0f7ff;
   display: flex;
@@ -8,6 +8,11 @@ body {
   align-items: center;
   padding: 2rem;
 }
+
+h1, h2, h3 {
+  font-family: 'Share Tech Mono', monospace;
+}
+
 
 header img {
   width: 140px;
