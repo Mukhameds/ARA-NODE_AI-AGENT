@@ -13,6 +13,7 @@ h1, h2, h3 {
   font-family: 'Share Tech Mono', monospace;
 }
 
+/* ---------- UI CONTENT CARDS ---------- */
 
 header img {
   width: 140px;
@@ -53,6 +54,8 @@ header img {
 .card ul {
   padding-left: 1.5rem;
 }
+
+/* ---------- NAV + HEADER ---------- */
 
 .icon {
   font-size: 1.4rem;
@@ -101,6 +104,8 @@ nav a:hover {
   transform: translateY(-1px);
 }
 
+/* ---------- FOOTER ---------- */
+
 footer {
   margin-top: 4rem;
   padding: 2rem;
@@ -124,6 +129,51 @@ footer a:hover {
   color: #00EFFF;
 }
 
+/* ---------- MARKDOWN BODY STYLING ---------- */
+
+.markdown-body {
+  font-family: 'Inter', sans-serif;
+  font-size: 1.05rem;
+  line-height: 1.8;
+  color: #e0f7ff;
+  background-color: transparent;
+  padding: 2rem;
+  max-width: 100%;
+  width: 100%;
+  word-wrap: break-word;
+  overflow-x: auto;
+  box-sizing: border-box;
+}
+
+.markdown-body h1,
+.markdown-body h2,
+.markdown-body h3 {
+  font-family: 'Share Tech Mono', monospace;
+  color: #FFFB00;
+  text-shadow: 0 0 8px #FFFB00aa;
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+}
+
+.markdown-body p {
+  margin: 1rem 0;
+}
+
+.markdown-body pre,
+.markdown-body code {
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 0.95rem;
+  background-color: #001f2e;
+  color: #aef;
+  padding: 0.5rem;
+  border-radius: 6px;
+  display: block;
+  overflow-x: auto;
+  box-shadow: 0 0 10px #00EFFF22;
+}
+
+/* ---------- MOBILE ADAPTIVE ---------- */
+
 @media screen and (max-width: 700px) {
   body {
     padding: 1.2rem;
@@ -144,54 +194,16 @@ footer a:hover {
 
   nav {
     flex-direction: column;
+    align-items: center;
+  }
 
-    /* Markdown layout fix and better readability */
-.markdown-body {
-  font-family: 'Inter', sans-serif;
-  font-size: 1.05rem;
-  line-height: 1.8;
-  color: #e0f7ff;
-  background-color: transparent;
-  padding: 1.5rem;
-  max-width: 100%;
-  width: 100%;
-  word-wrap: break-word;
-  box-sizing: border-box;
-  overflow-x: auto;
-}
-
-.markdown-body h1, .markdown-body h2, .markdown-body h3 {
-  font-family: 'Share Tech Mono', monospace;
-  color: #FFFB00;
-  text-shadow: 0 0 8px #FFFB00aa;
-  margin-top: 2rem;
-  margin-bottom: 1rem;
-}
-
-.markdown-body code, .markdown-body pre {
-  font-family: 'JetBrains Mono', monospace;
-  font-size: 0.95rem;
-  background-color: #001f2e;
-  color: #aef;
-  padding: 0.5rem 0.7rem;
-  border-radius: 6px;
-  display: block;
-  overflow-x: auto;
-  box-shadow: 0 0 10px #00EFFF22;
-}
-
-/* Responsive scaling for markdown on mobile */
-@media screen and (max-width: 768px) {
   .markdown-body {
     padding: 1rem;
     font-size: 1rem;
   }
 
-  .markdown-body pre, .markdown-body code {
+  .markdown-body pre,
+  .markdown-body code {
     font-size: 0.9rem;
-  }
-}
-
-    align-items: center;
   }
 }
