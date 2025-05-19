@@ -3,10 +3,8 @@ body {
   font-family: 'Inter', sans-serif;
   background-color: #000d1a;
   color: #e6faff;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
   padding: 2rem;
+  box-sizing: border-box;
 }
 
 h1, h2, h3 {
@@ -21,11 +19,11 @@ header img {
 }
 
 .container {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
-  gap: 2rem;
-  max-width: 1400px;
+  max-width: 1140px;
   width: 100%;
+  margin: 0 auto;
+  padding: 0 1rem;
+  box-sizing: border-box;
 }
 
 .card {
@@ -34,6 +32,7 @@ header img {
   border-radius: 12px;
   padding: 1.5rem;
   box-shadow: 0 0 20px #00e0ff55;
+  margin-bottom: 2rem;
 }
 
 .card-mvp {
@@ -58,22 +57,22 @@ header img {
   color: #00e0ff;
   font-size: 1.6rem;
   margin-bottom: 1rem;
-  text-shadow: 0 0 4px #00e0ff, 0 0 8px #00e0ffaa;
+  text-shadow: 0 0 2px #00e0ff, 0 0 4px #00e0ffaa;
 }
 
 .card-mvp h2 {
   color: #00e0ff;
-  text-shadow: 0 0 4px #00e0ff, 0 0 8px #00e0ffaa;
+  text-shadow: 0 0 2px #00e0ff, 0 0 4px #00e0ffaa;
 }
 
 .card-agi h2 {
   color: #00ffaa;
-  text-shadow: 0 0 4px #00ffaa, 0 0 8px #00ffaa88;
+  text-shadow: 0 0 2px #00ffaa, 0 0 4px #00ffaa88;
 }
 
 .card-stb h2 {
   color: #ff5cff;
-  text-shadow: 0 0 4px #ff5cff, 0 0 8px #ff5cff88;
+  text-shadow: 0 0 2px #ff5cff, 0 0 4px #ff5cff88;
 }
 
 .card p,
@@ -137,7 +136,7 @@ header {
 header h1 {
   color: #fffb00;
   font-size: 2.8rem;
-  text-shadow: 0 0 6px #fffb00, 0 0 12px #fffb00aa;
+  text-shadow: 0 0 4px #fffb00, 0 0 8px #fffb00aa;
 }
 
 header p {
@@ -203,10 +202,10 @@ footer a:hover {
   padding: 2rem;
   max-width: 960px;
   width: 100%;
+  margin: 0 auto;
   word-wrap: break-word;
   overflow-x: auto;
   box-sizing: border-box;
-  margin: 0 auto;
 }
 
 .markdown-body h1,
@@ -214,7 +213,7 @@ footer a:hover {
 .markdown-body h3 {
   font-family: 'Share Tech Mono', monospace;
   color: #fffb00;
-  text-shadow: 0 0 4px #fffb00, 0 0 6px #fffb00aa;
+  text-shadow: 0 0 2px #fffb00, 0 0 4px #fffb00aa;
   margin-top: 2rem;
   margin-bottom: 1rem;
   word-break: break-word;
