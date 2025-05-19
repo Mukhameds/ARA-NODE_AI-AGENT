@@ -13,8 +13,6 @@ h1, h2, h3 {
   font-family: 'Share Tech Mono', monospace;
 }
 
-/* ---------- UI CONTENT CARDS ---------- */
-
 header img {
   width: 140px;
   margin-bottom: 1rem;
@@ -63,11 +61,19 @@ header img {
   text-shadow: 0 0 8px #00e0ff, 0 0 16px #00e0ffaa;
 }
 
-.card-mvp h2,
-.card-agi h2,
+.card-mvp h2 {
+  color: #00e0ff;
+  text-shadow: 0 0 8px #00e0ff, 0 0 16px #00e0ffaa;
+}
+
+.card-agi h2 {
+  color: #00ffaa;
+  text-shadow: 0 0 8px #00ffaa, 0 0 16px #00ffaa88;
+}
+
 .card-stb h2 {
-  color: inherit;
-  text-shadow: 0 0 8px currentColor, 0 0 16px currentColor;
+  color: #ff5cff;
+  text-shadow: 0 0 8px #ff5cff, 0 0 16px #ff5cff88;
 }
 
 .card p,
@@ -88,10 +94,10 @@ header img {
   padding: 0.8rem 1.6rem;
   border-radius: 10px;
   font-size: 1rem;
-  box-shadow: 0 0 10px #00e0ff88;
+  box-shadow: 0 0 12px #00e0ff88;
   text-decoration: none;
   display: inline-block;
-  transition: 0.2s;
+  transition: 0.2s ease;
 }
 
 .button-agi {
@@ -101,10 +107,10 @@ header img {
   padding: 0.8rem 1.6rem;
   border-radius: 10px;
   font-size: 1rem;
-  box-shadow: 0 0 10px #00ffaa88;
+  box-shadow: 0 0 12px #00ffaa88;
   text-decoration: none;
   display: inline-block;
-  transition: 0.2s;
+  transition: 0.2s ease;
 }
 
 .button-stb {
@@ -114,13 +120,18 @@ header img {
   padding: 0.8rem 1.6rem;
   border-radius: 10px;
   font-size: 1rem;
-  box-shadow: 0 0 10px #ff5cff88;
+  box-shadow: 0 0 12px #ff5cff88;
   text-decoration: none;
   display: inline-block;
-  transition: 0.2s;
+  transition: 0.2s ease;
 }
 
-/* ---------- NAV + HEADER ---------- */
+.button-mvp:hover,
+.button-agi:hover,
+.button-stb:hover {
+  transform: scale(1.05);
+  box-shadow: 0 0 18px currentColor;
+}
 
 .icon {
   font-size: 1.4rem;
@@ -169,8 +180,6 @@ nav a:hover {
   transform: translateY(-1px);
 }
 
-/* ---------- FOOTER ---------- */
-
 footer {
   margin-top: 4rem;
   padding: 2rem;
@@ -193,8 +202,6 @@ footer a:hover {
   text-decoration: underline;
   color: #00e0ff;
 }
-
-/* ---------- MARKDOWN BODY STYLING ---------- */
 
 .markdown-body {
   font-family: 'Inter', sans-serif;
@@ -236,8 +243,6 @@ footer a:hover {
   overflow-x: auto;
   box-shadow: 0 0 10px #00e0ff22;
 }
-
-/* ---------- MOBILE ADAPTIVE ---------- */
 
 @media screen and (max-width: 700px) {
   body {
