@@ -38,11 +38,36 @@ header img {
   box-shadow: 0 0 20px #00e0ff55;
 }
 
+.card-mvp {
+  background-color: #001f33;
+  border: 2px solid #00e0ff;
+  box-shadow: 0 0 20px #00e0ff55;
+}
+
+.card-agi {
+  background-color: #002926;
+  border: 2px solid #00ffaa;
+  box-shadow: 0 0 20px #00ffaa55;
+}
+
+.card-stb {
+  background-color: #2a003f;
+  border: 2px solid #ff5cff;
+  box-shadow: 0 0 20px #ff5cff66;
+}
+
 .card h2 {
   color: #00e0ff;
   font-size: 1.6rem;
   margin-bottom: 1rem;
   text-shadow: 0 0 8px #00e0ff, 0 0 16px #00e0ffaa;
+}
+
+.card-mvp h2,
+.card-agi h2,
+.card-stb h2 {
+  color: inherit;
+  text-shadow: 0 0 8px currentColor, 0 0 16px currentColor;
 }
 
 .card p,
@@ -54,6 +79,45 @@ header img {
 
 .card ul {
   padding-left: 1.5rem;
+}
+
+.button-mvp {
+  background-color: #00e0ff;
+  color: #001f33;
+  font-weight: bold;
+  padding: 0.8rem 1.6rem;
+  border-radius: 10px;
+  font-size: 1rem;
+  box-shadow: 0 0 10px #00e0ff88;
+  text-decoration: none;
+  display: inline-block;
+  transition: 0.2s;
+}
+
+.button-agi {
+  background-color: #00ffaa;
+  color: #002926;
+  font-weight: bold;
+  padding: 0.8rem 1.6rem;
+  border-radius: 10px;
+  font-size: 1rem;
+  box-shadow: 0 0 10px #00ffaa88;
+  text-decoration: none;
+  display: inline-block;
+  transition: 0.2s;
+}
+
+.button-stb {
+  background-color: #ff5cff;
+  color: #2a003f;
+  font-weight: bold;
+  padding: 0.8rem 1.6rem;
+  border-radius: 10px;
+  font-size: 1rem;
+  box-shadow: 0 0 10px #ff5cff88;
+  text-decoration: none;
+  display: inline-block;
+  transition: 0.2s;
 }
 
 /* ---------- NAV + HEADER ---------- */
